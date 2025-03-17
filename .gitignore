@@ -1,0 +1,22 @@
+# .gitignore
+# Ignore virtual environments
+/backend/venv/
+/venv/
+*.pyc
+__pycache__/
+
+# Ignore build artifacts
+/node_modules/
+/dist/
+/public/dist/
+
+# Ignore large model files
+*.bin
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
